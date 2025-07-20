@@ -26,8 +26,15 @@ deactivate
 ```
 
 # 実行方法
-`exp/exp19/` で以下を実行
-```
-(.venv) python run.py
-```
-`exp/exp19/exp19_YYYY-MM-DD_TT-TT-TT` に結果などが保存
+1. `exp/data`に以下のデータを入れる
+    ```
+    sample_submission.csv
+    test.csv
+    train.csv
+    ```
+
+2. `exp/exp19/` に移動し、以下を実行
+    ```
+    (.venv) python run.py
+    ```
+    `exp/exp19/exp19_YYYY-MM-DD_TT-TT-TT` に結果などが保存される
